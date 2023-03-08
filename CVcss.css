@@ -7,12 +7,18 @@
     font-weight: 100;
 }
 
-section {
-    width: 1115px;
-    border: 10px solid #00ab44;
-    padding: 0px;
-    margin-top: 80px;
-    margin-bottom: 50px;
+@media(max-width:600px){
+    .facet_sidebar{
+        display: none;
+    }
+}
+#hr{
+    position: relative; 
+    top: 20px; 
+    border: 5px; 
+    height: 12px; 
+    background: #00ab44; 
+    margin-bottom: 50px; 
   }
 
 img{float: right;
